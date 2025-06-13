@@ -24,5 +24,3 @@ You work will be scored based on several categories:
 - [ ] Code Process
 - [ ] LLM Integration and prompting methods
 - [ ] Time to completion
-
-When work is completed contact @Full-lifey with a link to the forked repo
