@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "JournalGPT",
+    "slug": "JournalGPT",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "journalgpt",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "extra": {
+      "supabaseUrl": "",
+      "supabaseAnonKey": "",
+      "openaiApiKey": ""
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.expo-new-dev.JournalGPT"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.exponewdev.JournalGPT"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

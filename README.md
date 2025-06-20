@@ -1,26 +1,51 @@
-# Mindful Software Code Challenge
+# Welcome 👋
 
-## Description
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-This repo is for the code challenge to work for Mindful Software.
+## Get started
 
-Your task is to fork this repo and develop an expo application. This application will be a journal for the user. You are free to use any dependencies you want.
+1. Install dependencies
 
-The requirements are:
+   ```bash
+   npm install
+   ```
 
-- [ ] Create basic authentication
-- [ ] Allow the user to create journal entries tied to their user account. Persist the data in any way you choose.
-- [ ] Use an LLM of your choice to analyze the journal entries and add mood metadata to each entry. This needs to be conveyed instantly to the user for easy digestion.
-- [ ] Add filtering and organization to the journal list so it can be organized and filtered by base mood. (i.e. happiness level, fear level, etc.)
+2. Start the app
 
-## Results
+   ```bash
+   npx expo start
+   ```
 
-You work will be scored based on several categories:
+In the output, you'll find options to open the app in a
 
-- [ ] Does it meet the requirements?
-- [ ] Code Organization and quality
-- [ ] Bugs Present
-- [ ] UI/UX
-- [ ] Code Process
-- [ ] LLM Integration and prompting methods
-- [ ] Time to completion
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
